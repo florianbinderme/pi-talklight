@@ -37,4 +37,4 @@ def print_sound(indata, outdata, frames, time, status):
     # print ("|" * int(volume_norm))
 
 with sd.Stream(callback=print_sound):
-    sd.sleep(100 * config.RATE)
+    sd.sleep(1000 * 3600 * 24)
